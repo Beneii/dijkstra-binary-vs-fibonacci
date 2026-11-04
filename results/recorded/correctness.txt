@@ -1,0 +1,33 @@
+PASS: James and Fibonacci each 18000 randomized heap operations; 80 random graphs with zero/tie/unreachable cases; both full distance vectors vs array oracle
+PASS James original heap_test: 2: 3; 0: 5
+PASS fixture positive_hand_check: both full vectors match oracle and published expected distances
+PASS fixture unreachable: both full vectors match oracle and published expected distances
+PASS fixture zero_weight: both full vectors match oracle and published expected distances
+PASS fixture equal_distance_tie: both full vectors match oracle and published expected distances
+PASS n250_m1000_seed11.csv: both full distance vectors vs oracle; Fibonacci predecessor paths verified
+PASS n250_m1000_seed22.csv: both full distance vectors vs oracle; Fibonacci predecessor paths verified
+PASS n250_m1000_seed33.csv: both full distance vectors vs oracle; Fibonacci predecessor paths verified
+PASS n250_m4000_seed11.csv: both full distance vectors vs oracle; Fibonacci predecessor paths verified
+PASS n250_m4000_seed22.csv: both full distance vectors vs oracle; Fibonacci predecessor paths verified
+PASS n250_m4000_seed33.csv: both full distance vectors vs oracle; Fibonacci predecessor paths verified
+PASS n250_m16000_seed11.csv: both full distance vectors vs oracle; Fibonacci predecessor paths verified
+PASS n250_m16000_seed22.csv: both full distance vectors vs oracle; Fibonacci predecessor paths verified
+PASS n250_m16000_seed33.csv: both full distance vectors vs oracle; Fibonacci predecessor paths verified
+PASS n1000_m4000_seed11.csv: both full distance vectors vs oracle; Fibonacci predecessor paths verified
+PASS n1000_m4000_seed22.csv: both full distance vectors vs oracle; Fibonacci predecessor paths verified
+PASS n1000_m4000_seed33.csv: both full distance vectors vs oracle; Fibonacci predecessor paths verified
+PASS n1000_m16000_seed11.csv: both full distance vectors vs oracle; Fibonacci predecessor paths verified
+PASS n1000_m16000_seed22.csv: both full distance vectors vs oracle; Fibonacci predecessor paths verified
+PASS n1000_m16000_seed33.csv: both full distance vectors vs oracle; Fibonacci predecessor paths verified
+PASS n1000_m64000_seed11.csv: both full distance vectors vs oracle; Fibonacci predecessor paths verified
+PASS n1000_m64000_seed22.csv: both full distance vectors vs oracle; Fibonacci predecessor paths verified
+PASS n1000_m64000_seed33.csv: both full distance vectors vs oracle; Fibonacci predecessor paths verified
+PASS n4000_m16000_seed11.csv: both full distance vectors vs oracle; Fibonacci predecessor paths verified
+PASS n4000_m16000_seed22.csv: both full distance vectors vs oracle; Fibonacci predecessor paths verified
+PASS n4000_m16000_seed33.csv: both full distance vectors vs oracle; Fibonacci predecessor paths verified
+PASS n4000_m64000_seed11.csv: both full distance vectors vs oracle; Fibonacci predecessor paths verified
+PASS n4000_m64000_seed22.csv: both full distance vectors vs oracle; Fibonacci predecessor paths verified
+PASS n4000_m64000_seed33.csv: both full distance vectors vs oracle; Fibonacci predecessor paths verified
+PASS n4000_m256000_seed11.csv: both full distance vectors vs oracle; Fibonacci predecessor paths verified
+PASS n4000_m256000_seed22.csv: both full distance vectors vs oracle; Fibonacci predecessor paths verified
+PASS n4000_m256000_seed33.csv: both full distance vectors vs oracle; Fibonacci predecessor paths verified

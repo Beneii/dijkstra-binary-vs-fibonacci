@@ -1,0 +1,609 @@
+{
+  "format_version": 1,
+  "kind": "generated synthetic data, not observed real-world data",
+  "generator": "generate.py",
+  "generator_sha256": "334c8605fb7095f3ff5fb0ee741d7a66ae331333cac0789b4bf25bcaf84b0c92",
+  "vertex_ids": "0..n-1",
+  "directed": true,
+  "weight_range": [
+    1,
+    1000
+  ],
+  "density_definition": "m / (n * (n - 1))",
+  "graphs": [
+    {
+      "file": "graphs/n250_m1000_seed11.csv",
+      "n": 250,
+      "requested_m": 1000,
+      "actual_m": 1000,
+      "m_over_n": 4,
+      "requested_density": 0.01606425702811245,
+      "actual_density": 0.01606425702811245,
+      "seed": 11,
+      "sources": [
+        144,
+        228,
+        98
+      ],
+      "bytes": 11061,
+      "sha256": "5a175b1103d74fe73c4fa01b8b86817e21cd90c7da5b2d5034c81d4909a0e4dc",
+      "family": "core_fixed_average_outdegree"
+    },
+    {
+      "file": "graphs/n250_m1000_seed22.csv",
+      "n": 250,
+      "requested_m": 1000,
+      "actual_m": 1000,
+      "m_over_n": 4,
+      "requested_density": 0.01606425702811245,
+      "actual_density": 0.01606425702811245,
+      "seed": 22,
+      "sources": [
+        145,
+        148,
+        247
+      ],
+      "bytes": 11006,
+      "sha256": "cd6684d37483dc2809a4234d92f42df45370592aba2c1cca8f9c5e723c7f6488",
+      "family": "core_fixed_average_outdegree"
+    },
+    {
+      "file": "graphs/n250_m1000_seed33.csv",
+      "n": 250,
+      "requested_m": 1000,
+      "actual_m": 1000,
+      "m_over_n": 4,
+      "requested_density": 0.01606425702811245,
+      "actual_density": 0.01606425702811245,
+      "seed": 33,
+      "sources": [
+        87,
+        173,
+        30
+      ],
+      "bytes": 11013,
+      "sha256": "c2bd5700a950f2cbb7e4f01a06abdc9678a37291aa6f4d577d65f0050c95bf40",
+      "family": "core_fixed_average_outdegree"
+    },
+    {
+      "file": "graphs/n250_m4000_seed11.csv",
+      "n": 250,
+      "requested_m": 4000,
+      "actual_m": 4000,
+      "m_over_n": 16,
+      "requested_density": 0.0642570281124498,
+      "actual_density": 0.0642570281124498,
+      "seed": 11,
+      "sources": [
+        144,
+        228,
+        98
+      ],
+      "bytes": 44031,
+      "sha256": "e3d50f680bc23dbf9f9cfa8087ee229c4abd3a4aa9170ddb574182891c706403",
+      "family": "core_fixed_average_outdegree"
+    },
+    {
+      "file": "graphs/n250_m4000_seed22.csv",
+      "n": 250,
+      "requested_m": 4000,
+      "actual_m": 4000,
+      "m_over_n": 16,
+      "requested_density": 0.0642570281124498,
+      "actual_density": 0.0642570281124498,
+      "seed": 22,
+      "sources": [
+        145,
+        148,
+        247
+      ],
+      "bytes": 44075,
+      "sha256": "48af2ddb1944abe51853fc71676522205f4c22bb4ecaeab2fc6be04b1b391774",
+      "family": "core_fixed_average_outdegree"
+    },
+    {
+      "file": "graphs/n250_m4000_seed33.csv",
+      "n": 250,
+      "requested_m": 4000,
+      "actual_m": 4000,
+      "m_over_n": 16,
+      "requested_density": 0.0642570281124498,
+      "actual_density": 0.0642570281124498,
+      "seed": 33,
+      "sources": [
+        87,
+        173,
+        30
+      ],
+      "bytes": 44086,
+      "sha256": "fc10b54750c682adf49b4660e033b2ad5c8e5f29fb596e59b7753bfe7c61945c",
+      "family": "core_fixed_average_outdegree"
+    },
+    {
+      "file": "graphs/n250_m16000_seed11.csv",
+      "n": 250,
+      "requested_m": 16000,
+      "actual_m": 16000,
+      "m_over_n": 64,
+      "requested_density": 0.2570281124497992,
+      "actual_density": 0.2570281124497992,
+      "seed": 11,
+      "sources": [
+        144,
+        228,
+        98
+      ],
+      "bytes": 176232,
+      "sha256": "e2566c84a17c3f7303801ac31f01e93478557b11972eabacefaf79e221afec7f",
+      "family": "core_fixed_average_outdegree"
+    },
+    {
+      "file": "graphs/n250_m16000_seed22.csv",
+      "n": 250,
+      "requested_m": 16000,
+      "actual_m": 16000,
+      "m_over_n": 64,
+      "requested_density": 0.2570281124497992,
+      "actual_density": 0.2570281124497992,
+      "seed": 22,
+      "sources": [
+        145,
+        148,
+        247
+      ],
+      "bytes": 176117,
+      "sha256": "310fdb77f3ca8286f9c6524640b6cbd3e465f83f586810ac327012dbdd209a3c",
+      "family": "core_fixed_average_outdegree"
+    },
+    {
+      "file": "graphs/n250_m16000_seed33.csv",
+      "n": 250,
+      "requested_m": 16000,
+      "actual_m": 16000,
+      "m_over_n": 64,
+      "requested_density": 0.2570281124497992,
+      "actual_density": 0.2570281124497992,
+      "seed": 33,
+      "sources": [
+        87,
+        173,
+        30
+      ],
+      "bytes": 176158,
+      "sha256": "198e1d0a82b62fd2d051555107f8b87c67d82aff880263409df55f17ce750156",
+      "family": "core_fixed_average_outdegree"
+    },
+    {
+      "file": "graphs/n1000_m4000_seed11.csv",
+      "n": 1000,
+      "requested_m": 4000,
+      "actual_m": 4000,
+      "m_over_n": 4,
+      "requested_density": 0.004004004004004004,
+      "actual_density": 0.004004004004004004,
+      "seed": 11,
+      "sources": [
+        579,
+        914,
+        392
+      ],
+      "bytes": 46698,
+      "sha256": "71a231783b2dc0d2e6a62c610f5d8b6b7e829cd2fc59d88eb6498b5795320254",
+      "family": "core_fixed_average_outdegree"
+    },
+    {
+      "file": "graphs/n1000_m4000_seed22.csv",
+      "n": 1000,
+      "requested_m": 4000,
+      "actual_m": 4000,
+      "m_over_n": 4,
+      "requested_density": 0.004004004004004004,
+      "actual_density": 0.004004004004004004,
+      "seed": 22,
+      "sources": [
+        580,
+        592,
+        989
+      ],
+      "bytes": 46693,
+      "sha256": "ec2c26a23e660d52bd993de4a61fab7dc92b6aaab716b5f0a84684ec20c2fccf",
+      "family": "core_fixed_average_outdegree"
+    },
+    {
+      "file": "graphs/n1000_m4000_seed33.csv",
+      "n": 1000,
+      "requested_m": 4000,
+      "actual_m": 4000,
+      "m_over_n": 4,
+      "requested_density": 0.004004004004004004,
+      "actual_density": 0.004004004004004004,
+      "seed": 33,
+      "sources": [
+        350,
+        694,
+        120
+      ],
+      "bytes": 46734,
+      "sha256": "713ca16e9d5201dd1967c6bf65568a46b1d86f1629638e0d68c665d1a3ce7012",
+      "family": "core_fixed_average_outdegree"
+    },
+    {
+      "file": "graphs/n1000_m16000_seed11.csv",
+      "n": 1000,
+      "requested_m": 16000,
+      "actual_m": 16000,
+      "m_over_n": 16,
+      "requested_density": 0.016016016016016016,
+      "actual_density": 0.016016016016016016,
+      "seed": 11,
+      "sources": [
+        579,
+        914,
+        392
+      ],
+      "bytes": 186867,
+      "sha256": "c4fcd437c757e9fd178850b7d86e6171169c952252bed1f902193c7e6bf998a7",
+      "family": "core_fixed_average_outdegree"
+    },
+    {
+      "file": "graphs/n1000_m16000_seed22.csv",
+      "n": 1000,
+      "requested_m": 16000,
+      "actual_m": 16000,
+      "m_over_n": 16,
+      "requested_density": 0.016016016016016016,
+      "actual_density": 0.016016016016016016,
+      "seed": 22,
+      "sources": [
+        580,
+        592,
+        989
+      ],
+      "bytes": 186743,
+      "sha256": "9713e4981fffcf831768bed19c12c18eee5df6f7f0fee4f587d5382a40775144",
+      "family": "core_fixed_average_outdegree"
+    },
+    {
+      "file": "graphs/n1000_m16000_seed33.csv",
+      "n": 1000,
+      "requested_m": 16000,
+      "actual_m": 16000,
+      "m_over_n": 16,
+      "requested_density": 0.016016016016016016,
+      "actual_density": 0.016016016016016016,
+      "seed": 33,
+      "sources": [
+        350,
+        694,
+        120
+      ],
+      "bytes": 186765,
+      "sha256": "547eb81f4ba901c5aa47cc4ed6b694fa7a738140a532ff3525e1aaa6f5028c79",
+      "family": "core_fixed_average_outdegree"
+    },
+    {
+      "file": "graphs/n1000_m64000_seed11.csv",
+      "n": 1000,
+      "requested_m": 64000,
+      "actual_m": 64000,
+      "m_over_n": 64,
+      "requested_density": 0.06406406406406406,
+      "actual_density": 0.06406406406406406,
+      "seed": 11,
+      "sources": [
+        579,
+        914,
+        392
+      ],
+      "bytes": 747185,
+      "sha256": "b841b7725ed3ae0cd871f0b3a8f3f7c59461ee0225b1ae7af855a2de1c2e25cf",
+      "family": "core_fixed_average_outdegree"
+    },
+    {
+      "file": "graphs/n1000_m64000_seed22.csv",
+      "n": 1000,
+      "requested_m": 64000,
+      "actual_m": 64000,
+      "m_over_n": 64,
+      "requested_density": 0.06406406406406406,
+      "actual_density": 0.06406406406406406,
+      "seed": 22,
+      "sources": [
+        580,
+        592,
+        989
+      ],
+      "bytes": 747033,
+      "sha256": "dfeb4718d5ea081b018188ac464f3be02200fbfc95d08a776f8e769846dbe523",
+      "family": "core_fixed_average_outdegree"
+    },
+    {
+      "file": "graphs/n1000_m64000_seed33.csv",
+      "n": 1000,
+      "requested_m": 64000,
+      "actual_m": 64000,
+      "m_over_n": 64,
+      "requested_density": 0.06406406406406406,
+      "actual_density": 0.06406406406406406,
+      "seed": 33,
+      "sources": [
+        350,
+        694,
+        120
+      ],
+      "bytes": 747021,
+      "sha256": "46ea07019b38b583ecf6b352c20f2c993eac779dd7decf0aedd6d64db3864249",
+      "family": "core_fixed_average_outdegree"
+    },
+    {
+      "file": "graphs/n4000_m16000_seed11.csv",
+      "n": 4000,
+      "requested_m": 16000,
+      "actual_m": 16000,
+      "m_over_n": 4,
+      "requested_density": 0.001000250062515629,
+      "actual_density": 0.001000250062515629,
+      "seed": 11,
+      "sources": [
+        2316,
+        3656,
+        1570
+      ],
+      "bytes": 213480,
+      "sha256": "4586dfc0b6bb590a61c0ec1c8bbc37e27d96ab39d7d26fb836aa8f221cd5fff7",
+      "family": "core_fixed_average_outdegree"
+    },
+    {
+      "file": "graphs/n4000_m16000_seed22.csv",
+      "n": 4000,
+      "requested_m": 16000,
+      "actual_m": 16000,
+      "m_over_n": 4,
+      "requested_density": 0.001000250062515629,
+      "actual_density": 0.001000250062515629,
+      "seed": 22,
+      "sources": [
+        2320,
+        2370,
+        3958
+      ],
+      "bytes": 213356,
+      "sha256": "a5e007006c68ef5e5ece3b006272226c8c4d8b7ddc745af7c7bbc92d2865a821",
+      "family": "core_fixed_average_outdegree"
+    },
+    {
+      "file": "graphs/n4000_m16000_seed33.csv",
+      "n": 4000,
+      "requested_m": 16000,
+      "actual_m": 16000,
+      "m_over_n": 4,
+      "requested_density": 0.001000250062515629,
+      "actual_density": 0.001000250062515629,
+      "seed": 33,
+      "sources": [
+        1401,
+        2777,
+        482
+      ],
+      "bytes": 213340,
+      "sha256": "34404acf5c191b8f42b43851a5a1093ec0f0f92bf661326f8ea2e5d6f32292de",
+      "family": "core_fixed_average_outdegree"
+    },
+    {
+      "file": "graphs/n4000_m64000_seed11.csv",
+      "n": 4000,
+      "requested_m": 64000,
+      "actual_m": 64000,
+      "m_over_n": 16,
+      "requested_density": 0.004001000250062516,
+      "actual_density": 0.004001000250062516,
+      "seed": 11,
+      "sources": [
+        2316,
+        3656,
+        1570
+      ],
+      "bytes": 853723,
+      "sha256": "39336ded4d280c5dc1a225cb23df6a65ce7a41228ef4284604e1afbee7e5a233",
+      "family": "core_fixed_average_outdegree"
+    },
+    {
+      "file": "graphs/n4000_m64000_seed22.csv",
+      "n": 4000,
+      "requested_m": 64000,
+      "actual_m": 64000,
+      "m_over_n": 16,
+      "requested_density": 0.004001000250062516,
+      "actual_density": 0.004001000250062516,
+      "seed": 22,
+      "sources": [
+        2320,
+        2370,
+        3958
+      ],
+      "bytes": 853508,
+      "sha256": "875f81d51d7e0e7cc0d4c65eed06d315fb0e2a7985d571087c40864de731da1a",
+      "family": "core_fixed_average_outdegree"
+    },
+    {
+      "file": "graphs/n4000_m64000_seed33.csv",
+      "n": 4000,
+      "requested_m": 64000,
+      "actual_m": 64000,
+      "m_over_n": 16,
+      "requested_density": 0.004001000250062516,
+      "actual_density": 0.004001000250062516,
+      "seed": 33,
+      "sources": [
+        1401,
+        2777,
+        482
+      ],
+      "bytes": 853811,
+      "sha256": "d020bd000a72b07e2e42a057b5d4b8d7e6ba0f53d0b4ef062d6a22fc0ec20d3e",
+      "family": "core_fixed_average_outdegree"
+    },
+    {
+      "file": "graphs/n4000_m256000_seed11.csv",
+      "n": 4000,
+      "requested_m": 256000,
+      "actual_m": 256000,
+      "m_over_n": 64,
+      "requested_density": 0.016004001000250064,
+      "actual_density": 0.016004001000250064,
+      "seed": 11,
+      "sources": [
+        2316,
+        3656,
+        1570
+      ],
+      "bytes": 3415253,
+      "sha256": "aeb0d87d671c32cdf9f365336d1902e7dd9db540346a5c445ed56fb66126aeae",
+      "family": "core_fixed_average_outdegree"
+    },
+    {
+      "file": "graphs/n4000_m256000_seed22.csv",
+      "n": 4000,
+      "requested_m": 256000,
+      "actual_m": 256000,
+      "m_over_n": 64,
+      "requested_density": 0.016004001000250064,
+      "actual_density": 0.016004001000250064,
+      "seed": 22,
+      "sources": [
+        2320,
+        2370,
+        3958
+      ],
+      "bytes": 3414436,
+      "sha256": "636ebca1c6ca840e6a892f183ee67d0de9fdf60a48cfd458c89f9705b1dc307e",
+      "family": "core_fixed_average_outdegree"
+    },
+    {
+      "file": "graphs/n4000_m256000_seed33.csv",
+      "n": 4000,
+      "requested_m": 256000,
+      "actual_m": 256000,
+      "m_over_n": 64,
+      "requested_density": 0.016004001000250064,
+      "actual_density": 0.016004001000250064,
+      "seed": 33,
+      "sources": [
+        1401,
+        2777,
+        482
+      ],
+      "bytes": 3414675,
+      "sha256": "38095df065c98ac1c6dbd7e842b26017c6fe470e88122584040c72bdb4106b80",
+      "family": "core_fixed_average_outdegree"
+    },
+    {
+      "file": "optional_fixed_density/n250_p0p10_m6225_seed11.csv",
+      "family": "optional_fixed_density",
+      "n": 250,
+      "requested_m": 6225,
+      "actual_m": 6225,
+      "m_over_n": 24.9,
+      "requested_density": 0.1,
+      "actual_density": 0.1,
+      "seed": 11,
+      "sources": [
+        144,
+        228,
+        98
+      ],
+      "bytes": 68572,
+      "sha256": "42d6daa037f5ad60cb33bbace651e1702eac69bd1450e48c8f1d9d04b8438c95"
+    },
+    {
+      "file": "optional_fixed_density/n250_p0p10_m6225_seed22.csv",
+      "family": "optional_fixed_density",
+      "n": 250,
+      "requested_m": 6225,
+      "actual_m": 6225,
+      "m_over_n": 24.9,
+      "requested_density": 0.1,
+      "actual_density": 0.1,
+      "seed": 22,
+      "sources": [
+        145,
+        148,
+        247
+      ],
+      "bytes": 68622,
+      "sha256": "8e995826218fbad41c4df7f28b89e4933861212faa710c506fd37ff60591000b"
+    },
+    {
+      "file": "optional_fixed_density/n250_p0p10_m6225_seed33.csv",
+      "family": "optional_fixed_density",
+      "n": 250,
+      "requested_m": 6225,
+      "actual_m": 6225,
+      "m_over_n": 24.9,
+      "requested_density": 0.1,
+      "actual_density": 0.1,
+      "seed": 33,
+      "sources": [
+        87,
+        173,
+        30
+      ],
+      "bytes": 68509,
+      "sha256": "14928f4ac4e4208f6372365f444598b6a0fde30477cea1a9c19f7c6a61a65cab"
+    },
+    {
+      "file": "optional_fixed_density/n1000_p0p10_m99900_seed11.csv",
+      "family": "optional_fixed_density",
+      "n": 1000,
+      "requested_m": 99900,
+      "actual_m": 99900,
+      "m_over_n": 99.9,
+      "requested_density": 0.1,
+      "actual_density": 0.1,
+      "seed": 11,
+      "sources": [
+        579,
+        914,
+        392
+      ],
+      "bytes": 1166397,
+      "sha256": "e5d555bda877dcb44bcad9e3541c517403e56fc1b2d4e0aa95bd34741aebaa92"
+    },
+    {
+      "file": "optional_fixed_density/n1000_p0p10_m99900_seed22.csv",
+      "family": "optional_fixed_density",
+      "n": 1000,
+      "requested_m": 99900,
+      "actual_m": 99900,
+      "m_over_n": 99.9,
+      "requested_density": 0.1,
+      "actual_density": 0.1,
+      "seed": 22,
+      "sources": [
+        580,
+        592,
+        989
+      ],
+      "bytes": 1166148,
+      "sha256": "cff3ba2eb88ba8e48f1496057a30d5798a58c64e0ef314a6257295d65c570926"
+    },
+    {
+      "file": "optional_fixed_density/n1000_p0p10_m99900_seed33.csv",
+      "family": "optional_fixed_density",
+      "n": 1000,
+      "requested_m": 99900,
+      "actual_m": 99900,
+      "m_over_n": 99.9,
+      "requested_density": 0.1,
+      "actual_density": 0.1,
+      "seed": 33,
+      "sources": [
+        350,
+        694,
+        120
+      ],
+      "bytes": 1166229,
+      "sha256": "7719366160a0e25e070f1875a3c38fbbd23be9d90a73edfa284b5fd9e764fb8b"
+    }
+  ]
+}

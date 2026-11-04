@@ -1,0 +1,2 @@
+# Preserve the exact algorithm, fixture and benchmark bytes pinned by SHA-256.
+* -text

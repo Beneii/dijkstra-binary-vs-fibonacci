@@ -1,0 +1,1 @@
+PASS: 432 raw rows,54 summaries,9 aggregates; exact trial coverage; medians/IQR recomputed; original/copy hashes unchanged; executable identity; all27graph hashes

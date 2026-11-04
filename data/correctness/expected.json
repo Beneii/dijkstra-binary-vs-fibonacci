@@ -1,0 +1,58 @@
+{
+  "purpose": "Correctness only, not benchmark workloads. null means unreachable.",
+  "fixtures": [
+    {
+      "name": "positive_hand_check",
+      "n": 5,
+      "source": 0,
+      "expected_distances": [
+        0,
+        2,
+        5,
+        6,
+        10
+      ],
+      "file": "correctness/positive_hand_check.csv",
+      "sha256": "2beb0c67a4d0694c22ab986b6a5a0479fbc5cf3b1d382f4f0b01ace5069bc90a"
+    },
+    {
+      "name": "unreachable",
+      "n": 4,
+      "source": 0,
+      "expected_distances": [
+        0,
+        2,
+        null,
+        null
+      ],
+      "file": "correctness/unreachable.csv",
+      "sha256": "b47cd62d3c49ebfa6890a87b8235aee26e23624797942f81b3b8ff59f2287f68"
+    },
+    {
+      "name": "zero_weight",
+      "n": 4,
+      "source": 0,
+      "expected_distances": [
+        0,
+        0,
+        0,
+        2
+      ],
+      "file": "correctness/zero_weight.csv",
+      "sha256": "48bff15d4fc5d0df4cfc20c3eef0e2a33b080ef236ffc80c85cf7cdaa26ba451"
+    },
+    {
+      "name": "equal_distance_tie",
+      "n": 4,
+      "source": 0,
+      "expected_distances": [
+        0,
+        1,
+        1,
+        2
+      ],
+      "file": "correctness/equal_distance_tie.csv",
+      "sha256": "eb7af971e823aea6d96e03767f23f51e0200e1f4dec8cc651d3516b2035d0db9"
+    }
+  ]
+}

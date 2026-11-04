@@ -1,0 +1,8 @@
+test_complete_pack_regeneration (__main__.DataTests.test_complete_pack_regeneration) ... ok
+test_core_graphs_and_manifest (__main__.DataTests.test_core_graphs_and_manifest) ... ok
+test_tiny_correctness_oracle (__main__.DataTests.test_tiny_correctness_oracle) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 13.591s
+
+OK

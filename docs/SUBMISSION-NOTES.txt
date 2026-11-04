@@ -1,0 +1,21 @@
+DIJKSTRA ASSESSMENT SUBMISSION
+Ben Jones and James Novosel
+
+The ZIP contains the final group artifacts and separate individual reflections:
+1. 01-Report/Group-Report.pdf
+2. 02-Video/Presentation.mp4 (11 minutes 7 seconds)
+3. 03-Code-Repository/ (both implementations, tests, benchmark, datasets and results)
+4. 04-Individual-Reflections/Ben-Jones-Individual-Reflection.pdf
+5. 04-Individual-Reflections/James-Novosel-Individual-Reflection.docx
+
+05-Slides contains supporting presentation files. The DOCX report in the local folder is an editable alternative; the submitted ZIP uses the PDF. There are no nested repository ZIPs or compiled executables.
+
+The video is unchanged. VIDEO-CLARIFICATION.txt and the report explain that James's reference to separate computers concerns the original independent runs. The final comparative figures use the later matched run on Ben's computer.
+
+The report discloses the provenance of AI-authored pre-measurement hypotheses. No independently dated student-authored predictions have been supplied; this evidence limitation remains disclosed rather than replaced with invented history.
+
+The final reflection uses the documented implementation, prototype cleanup issue, proposed follow-up, Ben's earlier question about whether Fibonacci should be much better, and his confirmed performance surprise. It describes the distinction between operation bounds and complete-program runtime. No unrecorded prior prediction or debugging experience has been invented.
+
+The source modules and recorded report measurements are unchanged. The organised code was rebuilt, its correctness and full benchmark run checked, both datasets audited, and its chart generation checked. Follow 03-Code-Repository/README.md to reproduce it.
+
+No files have been submitted automatically. Peer viewing responses are a later deliverable after three videos are assigned.

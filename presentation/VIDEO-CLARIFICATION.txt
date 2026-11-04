@@ -1,0 +1,9 @@
+Methodology clarification for the unchanged recording
+
+The two implementations were originally developed and measured independently on different machines. James's spoken reference to separate machines describes that earlier stage.
+
+Afterward, the actual submitted binary and Fibonacci implementations were compiled into one executable and rerun on Ben's Windows 11 computer with a Ryzen 5 7500F and approximately 32 GB RAM. Both used the same 27 graphs, source 0, MSVC C++17 /O2, warm-ups and paired timing harness.
+
+The comparative chart, runtime ratios and conclusions in the final report use that later matched run. The original independent runs are retained as historical exploratory measurements and are not used as a controlled speed comparison. Source data, environment records, hashes and correctness checks are in 03-Code-Repository/results/recorded.
+
+The matched study compares complete implementations: initialization policy, returned predecessors, integer types and tie-breaking differ. It does not isolate heap choice alone. The video file itself has not been edited in this final submission-pack pass.

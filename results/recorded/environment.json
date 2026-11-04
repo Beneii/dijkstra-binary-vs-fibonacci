@@ -1,0 +1,46 @@
+{
+  "started_utc": "2026-11-04T09:06:30.546970+00:00",
+  "hardware": {
+    "cpu": {
+      "Name": "AMD Ryzen 5 7500F 6-Core Processor             ",
+      "NumberOfCores": 6,
+      "NumberOfLogicalProcessors": 12
+    },
+    "os": {
+      "Caption": "Microsoft Windows 11 Home",
+      "Version": "10.0.26200",
+      "TotalVisibleMemorySize": 33150956
+    }
+  },
+  "platform": "Windows-11-10.0.26200-SP0",
+  "compiler": "MSVC 194435223 C++ 201703 pointer_bits 64",
+  "flags": "/O2 /std:c++17 /EHsc /DNDEBUG /W4; x64; no LTO",
+  "executable_sha256": "4ce0713da5e2d04558f032efb9ede67d972ec23d128e6931774e619738450d0f",
+  "harness_sha256": "4f205e5c9c60a9d5bfbc3317cdf9472806e6d5bfb68ac7c02d72ed0e8ca06f2a",
+  "runner_sha256": "116f1ea9ffefe68abe8b13ea4dd00698f86bdec1eee30c301572e609841e18c2",
+  "manifest_sha256": "fbb0cab64ff19396d1be46996cc10e8bb5f8584204bddcaed8691e347ee034bb",
+  "source_vertex": 0,
+  "measured_trials": 8,
+  "warmup_calls_per_algorithm": 2,
+  "batch_calls_by_vertices": {
+    "250": 32,
+    "1000": 8,
+    "4000": 2
+  },
+  "order": "alternates first algorithm by trial parity; two algorithms measured in same process",
+  "timed_scope": "initialization, native algorithm, all algorithm allocations and cleanup, result destruction and one sink update",
+  "excluded": "file reading, input parsing, representation conversion, verification, output",
+  "comparison_scope": "actual complete implementations, NOT isolated heap-only comparison",
+  "implementation_differences": [
+    "James inserts discovered vertices; Ben initially inserts all V",
+    "Ben returns distances and predecessors; James distances only",
+    "James signed long long distances/int weights; Ben uint64 distance/weights",
+    "Heap-specific tie-breaking differs"
+  ],
+  "measurement_conditions": "Interactive Windows desktop; background load, affinity, power mode and frequency scaling uncontrolled; no deliberate setting changes",
+  "memory_measurement": "not measured",
+  "finished_utc": "2026-11-04T09:06:36.701716+00:00",
+  "correctness": "PASS",
+  "timed_rows": 432,
+  "summary_rows": 54
+}
